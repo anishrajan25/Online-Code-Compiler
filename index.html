@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Compiler</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </head>
+    <body class=" bg-light">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-between mt-3">
+                <div class="col-11">
+                    <h3>Type Your Code</h3>
+                </div>
+                <div class="col-1">
+                    <select></select>
+                </div>
+            </div>
+            <div class="d-flex mt-2">
+                    <ol class="my-0 px-2 list-unstyled text-center text-secondary" style="border: 1px solid; border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133)); border-right: 0px;">
+                    </ol>
+                <textarea class="w-100" style="margin: 0; resize: none;"># Write your code here
+print('Hello World');</textarea>
+            </div>
+            <div class="my-3 bg-dark text-white p-2" style="height: 9rem; overflow: auto;">
+                <p id="output"></p>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <button class="btn btn-warning">Compile</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="./script.js"></script>
+</html>
